@@ -52,6 +52,11 @@ export const Navbar = ({logout, login, register, user, isLogged} : NavBarProps) 
         <div className="navbar">
             <AppBar position="fixed">
                 <Toolbar>
+                    <NavLink to="/" style={{textDecoration: 'none', color: '#ffffff', marginRight: '15px'}}>
+                        <Typography variant="h6">
+                            Main
+                        </Typography>
+                    </NavLink> 
                     <NavLink to="/profile" style={{textDecoration: 'none', color: '#ffffff'}}>
                         <Typography variant="h6">
                             Profile Page
